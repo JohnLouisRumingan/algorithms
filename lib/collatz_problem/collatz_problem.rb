@@ -23,7 +23,7 @@ def collatz(n)
         n = next_value(n)
     end 
     
-    new_array < n #needs to do this one last time when n = 1 
+    new_array << n #needs to do this one last time when n = 1 
     return new_array
 end
 
