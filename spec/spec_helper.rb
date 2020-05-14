@@ -1,6 +1,7 @@
 require_relative "../lib/project_euler/collatz_problem.rb"
 require_relative "../lib/project_euler/10001st_prime.rb"
 require_relative "../lib/project_euler/power_digit_sum.rb"
+require_relative "../lib/project_euler/factorial_digit_sum.rb"
 
 require 'base64'
 
