@@ -1,36 +1,29 @@
 {
   "stats": {
-    "suites": 1,
-    "tests": 1,
+    "suites": 0,
+    "tests": 0,
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2020-08-05T12:28:19.646Z",
-    "end": "2020-08-05T12:28:19.651Z",
-    "duration": 5
+    "start": "2020-08-05T12:32:01.404Z",
+    "end": "2020-08-05T12:32:01.410Z",
+    "duration": 6
   },
-  "tests": [
-    {
-      "title": "sorts an array",
-      "fullTitle": "#insertionSort sorts an array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: insertionSort is not defined\n    at Context.<anonymous> (test/insertionSort-test.js:6:9)\n    at processImmediate (internal/timers.js:444:21)",
-        "message": "insertionSort is not defined"
-      }
-    }
-  ],
+  "tests": [],
   "pending": [],
   "failures": [
     {
-      "title": "sorts an array",
-      "fullTitle": "#insertionSort sorts an array",
-      "duration": 0,
+      "title": "\"before all\" hook",
+      "fullTitle": " \"before all\" hook",
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: insertionSort is not defined\n    at Context.<anonymous> (test/insertionSort-test.js:6:9)\n    at processImmediate (internal/timers.js:444:21)",
-        "message": "insertionSort is not defined"
+        "stack": "Error: ENOENT: no such file or directory, open '/Users/wilfredoantolinrumingan/Desktop/Flatiron/whiteboarding/algorithms_github/index.js'\n    at Object.openSync (fs.js:446:3)\n    at Object.readFileSync (fs.js:348:35)\n    at Object.transformFileSync (node_modules/babel-core/lib/api/node.js:152:33)\n    at Context.<anonymous> (test/root.js:8:29)\n    at processImmediate (internal/timers.js:444:21)",
+        "message": "ENOENT: no such file or directory, open '/Users/wilfredoantolinrumingan/Desktop/Flatiron/whiteboarding/algorithms_github/index.js'",
+        "errno": -2,
+        "syscall": "open",
+        "code": "ENOENT",
+        "path": "/Users/wilfredoantolinrumingan/Desktop/Flatiron/whiteboarding/algorithms_github/index.js"
       }
     }
   ],
