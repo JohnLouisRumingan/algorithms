@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-08-05T12:28:19.646Z",
+    "end": "2020-08-05T12:28:19.651Z",
+    "duration": 5
+  },
+  "tests": [
+    {
+      "title": "sorts an array",
+      "fullTitle": "#insertionSort sorts an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: insertionSort is not defined\n    at Context.<anonymous> (test/insertionSort-test.js:6:9)\n    at processImmediate (internal/timers.js:444:21)",
+        "message": "insertionSort is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "sorts an array",
+      "fullTitle": "#insertionSort sorts an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: insertionSort is not defined\n    at Context.<anonymous> (test/insertionSort-test.js:6:9)\n    at processImmediate (internal/timers.js:444:21)",
+        "message": "insertionSort is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
